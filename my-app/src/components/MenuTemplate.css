@@ -1,0 +1,98 @@
+.menu-template {
+  background: white;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  bottom: 0;
+  left : 0;
+  display: flex;
+  margin-right: auto;
+}
+
+.menubar {
+  width: 100%;
+  padding: 20px 10px 0px;
+  /* text-align: center; */
+  font-size: 17px;
+  font-weight: bold;
+  background: #688e99;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.menulist {
+  padding-left: 30px;
+}
+
+p{
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 10px auto;
+  display: flex;
+  color: white;
+}
+
+.yumicon {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 120px;
+  /* margin: 0 auto; */
+}
+
+.helpmsg {
+  color: #212529;
+  background-color: #ffffff;
+  width: 70%;
+  height: 18%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15%;
+  text-align: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+
+.helpbtn {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  border: solid 1px;
+  border-color:#688e99;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #688e99;
+  color: white;
+  width: 50%;
+  height: 30%;
+}
+
+.helpbtn:hover {
+  color: #688e99;
+  background-color: white;
+}
+
+.msg {
+  padding: 5%;
+  font-size: 18px;
+}
+
+.popover {
+  border: 5px solid !important;
+  border-color: #f0cb69 !important;
+  margin: -40px 0 0 60px !important;
+  padding: 10px !important;
+}
